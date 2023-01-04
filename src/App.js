@@ -4,11 +4,11 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   function increment() {
-    setCount((firstCount) => firstCount + 1);
+    setCount((TisheCount) => TisheCount + 1);
   }
 
   function decrement() {
-    setCount((firstCount) => firstCount - 1);
+    setCount((TisheCount) => TisheCount - 1);
   }
 
   return (
