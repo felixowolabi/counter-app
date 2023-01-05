@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 export default function App() {
   const [count, setCount] = useState(0);
-
   function increment() {
     setCount((TisheCount) => TisheCount + 1);
   }
@@ -13,9 +12,10 @@ export default function App() {
 
   return (
     <>
-      <button onClick={decrement}>-</button>
+      <button onClick={increment}>Increment +</button>
       <span>{count}</span>
-      <button onClick={increment}>+</button>
+
+      <button onClick={decrement}>Decrement -</button>
     </>
   );
 }
