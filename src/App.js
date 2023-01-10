@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <>
-      <h3>Counting</h3>
+      <h3>Counting Usestate</h3>
       <button onClick={increment}>Increment + </button>
       <span>{count}</span>
 
