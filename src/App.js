@@ -3,11 +3,11 @@ import React, { useState } from "react";
 export default function App() {
   const [count, setCount] = useState(0);
   function increment() {
-    setCount((TisheCount) => TisheCount + 1);
+    setCount((prevCount) => prevCount + 1);
   }
 
   function decrement() {
-    setCount((TisheCount) => TisheCount - 1);
+    setCount((prevCount) => prevCount - 1);
   }
 
   return (
