@@ -13,10 +13,9 @@ export default function App() {
   return (
     <>
       <h3>Counting Usestate</h3>
-      <button onClick={increment}>Increment + </button>
+      <button onClick={decrement}>- </button>
       <span>{count}</span>
-
-      <button onClick={decrement}>Decrement - </button>
+      <button onClick={increment}>+ </button>
     </>
   );
 }
